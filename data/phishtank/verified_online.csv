@@ -1,0 +1,8 @@
+phish_id,url,phish_detail_url,submission_time,verified,verification_time,online,target
+800101,http://paypal-security-account-verification.com/login,https://phishtank.org/phish_detail.php?phish_id=800101,2026-11-01T12:00:00+00:00,yes,2026-11-01T12:30:00+00:00,yes,PayPal
+800102,http://netflix-billing-update-required.net/signin,https://phishtank.org/phish_detail.php?phish_id=800102,2026-11-02T10:00:00+00:00,yes,2026-11-02T10:15:00+00:00,yes,Netflix
+800103,https://microsoft-office365-pass-reset.org/auth,https://phishtank.org/phish_detail.php?phish_id=800103,2026-11-03T09:00:00+00:00,yes,2026-11-03T09:20:00+00:00,yes,Microsoft
+800104,http://chase-security-portal.secure-banking.top/verify,https://phishtank.org/phish_detail.php?phish_id=800104,2026-11-04T15:00:00+00:00,yes,2026-11-04T15:45:00+00:00,yes,Chase Bank
+800105,http://apple-icloud-findmy-disabled.xyz/unlock,https://phishtank.org/phish_detail.php?phish_id=800105,2026-11-05T18:00:00+00:00,yes,2026-11-05T18:10:00+00:00,yes,Apple
+800106,http://secure-login-docusign.com-view.info/document,https://phishtank.org/phish_detail.php?phish_id=800106,2026-11-06T08:00:00+00:00,yes,2026-11-06T08:15:00+00:00,yes,DocuSign
+800107,http://amazon-unusual-activity-alert.co/resolve,https://phishtank.org/phish_detail.php?phish_id=800107,2026-11-07T14:30:00+00:00,yes,2026-11-07T14:45:00+00:00,yes,Amazon

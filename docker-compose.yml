@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  phishguard:
+    build: .
+    container_name: phishguard-app
+    ports:
+      - "8501:8501"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    volumes:
+      # Persist Human-in-the-Loop memory and threat datasets across container restarts
+      - ./hitl_memory.json:/app/hitl_memory.json
+      - ./data:/app/data
+    restart: unless-stopped

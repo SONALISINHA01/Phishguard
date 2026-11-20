@@ -1,0 +1,265 @@
+{
+  "records": [
+    {
+      "email_id": "8b8b55f4",
+      "sender": "<insideoutlier@outlier.ai>",
+      "subject": "Inside Outlier: How to make a prompt yours (and read the clues)",
+      "body_text": "TL;DR\n\nThis week's tip: How to read a response for clues and make a prompt your own. Explore Advanced Prompt Engineering \u2192\nYour answers: How you spent Halloween. Read the thread \u2192\nHit reply: What did you finish recently that you're proud of? Share your answer \u2192\nHey, it's Eliana.\n\nI spent all day yesterday working on my first quilt, and I've almost finished it. Before you get too impressed, I used precut squares, which my grandma informed me is cheating. Fair enough. Starting with precut pieces definitely gave me a head start.\n\nPrompting works the exact same way: you don't always have to start from a blank page. Grabbing a prompt someone else started as inspiration is a great shortcut, as long as you know how to read what the model gives back and tweak the prompt until it's truly yours.\n\nStart with inspo, then use each response to make it yours\nA prompt is the question or instruction you give an AI model, and the response is what it writes back. In many Outlier tasks, you'll either write a prompt or rate how well the AI answered one.\n\nIn our course Advanced Prompt Engineering, the more advanced skill goes beyond simple right-or-wrong grading. Whether you're writing from scratch or adapting a prompt you found for inspiration, the trick is figuring out why the AI answered the way it did, and using those clues to improve your next version.\n\nRead each response as a signal, not just an answer. If a response hedges with lots of \"it depends\" and \"might,\" the model may be uncertain or missing knowledge. A response that oversimplifies can mean the prompt didn't give the model enough context. Confident errors often show up in subjects where the model has seen a lot of plausible-sounding but unreliable sources.\nTreat your prompt like a rough draft. After you send a prompt, the AI's first response is a starting point, not the final word. If that response is bland, add a few more details or rules to your prompt and send it again, so you can see what the model does with a harder version. If the response misses the mark, reread your wording and look for what in your prompt might have steered the AI that way. Then rewrite the prompt and try again. Prompt revision is part of the skill.\nUse your domain knowledge. Models are generalists, so they know a little about everything and less about any one field. If you're a linguist, a lawyer, a software engineer, or a medical professional, you can write prompts in your area of expertise that the model can't handle well, and spotting that gap makes your evaluation valuable.\nExplore the full Advanced Prompt Engineering course \u2192\n\nCostumes and quiet nights: what you shared\n\n\nPhoto submitted by Bryan S.\n\nLast week, I asked about your Halloween costumes, and some of you shared how you spent the night instead. Here are a few of your answers:\n\nHolly T. took their two dogs to a dog park's \"Bark-o-ween.\" The Great Dane went as a dragon and the mixed breed went as a dinosaur. They took home third place in the costume contest.\nKatie S. made an ostrich costume out of a black trash bag, poking one arm through a hole to mimic the bird's head and neck. The friends who were supposed to match never showed up, and Katie says there were \"more laughs\" that way.\nMohammed B. dressed up as \"a complex prompt with conflicting constraints\" and walked around telling people things that sounded confident and coherent but were completely made up.\nRead the full discussion thread \u2192\n\nHit reply\nWhat have you been working on recently that you're proud of? Mine is my quilt, precut squares and all.\n\nReply directly to this email, or share your answer in the community \u2192\n\nSorry, Grandma,\n\nEliana",
+      "extracted_urls": [],
+      "header_verdict": {
+        "display_name": "",
+        "sender_domain": "outlier.ai",
+        "spf_status": "pass",
+        "dkim_status": "pass",
+        "dmarc_status": "pass",
+        "header_risk_score": 0.0,
+        "flags": [],
+        "is_suspicious": false
+      },
+      "domain_verdict": {
+        "max_domain_risk": 0.0,
+        "flags": [],
+        "analyzed_domains": []
+      },
+      "phishtank_verdict": {
+        "total_urls_scanned": 0,
+        "threat_detected": false,
+        "highest_threat": "CLEAN",
+        "url_findings": []
+      },
+      "intent_verdict": {
+        "psychological_triggers": [],
+        "intent_type": "Legitimate",
+        "urgency_score": 0.0,
+        "deceit_score": 0.0,
+        "semantic_risk_score": 0.0,
+        "rationale": "Detected 0 social engineering cues. Urgency rating: 0.0/100, Deceptive Intent: 0.0/100.",
+        "analysis_engine": "Semantic Heuristic Engine (Offline / Fallback)",
+        "engine_note": "HTTP Error 404: Not Found"
+      },
+      "risk_score": 0.0,
+      "action": "DELIVER",
+      "threat_category": "Legitimate",
+      "explanation": "**Action:** `DELIVER` (Risk Score: **0.0/100** | Category: **Legitimate**)\n\n**Triage Summary:**\n\u2022 No malicious URLs, spoofing signatures, or high-risk coercion tactics detected.\n\u2022 Standard business/personal communication signature verified.\n\n**LLM Cognitive Rationale:**\n> Detected 0 social engineering cues. Urgency rating: 0.0/100, Deceptive Intent: 0.0/100.",
+      "key_indicators": [],
+      "is_overridden": false,
+      "human_override_action": null,
+      "reviewer_notes": null,
+      "reviewed_at": null,
+      "processed_at": "2026-11-13T10:03:01.202312"
+    },
+    {
+      "email_id": "52516c7b",
+      "sender": "\tnoreply@unstop.buzz",
+      "subject": "Few Hours: Eurogrip Is Hiring | Grab PPIs & \u20b93L Prize Pool",
+      "body_text": "Hi Sonali,\n\nEurogrip is hiring! This is your final call to grab a career opportunity with Eurogrip. Registrations for TORQ Challenge 4.0 are closing in just a few hours!\n\nRegister Now\nWhat's up for grabs:\n\nPre-placement interview opportunity at Eurogrip\nPrizes worth INR 3 Lakhs\nParticipation certificate for all\nDon\u2019t miss your chance to put your skills to work and take your shot at Eurogrip.\n\nRegards,\nTeam Unstop",
+      "extracted_urls": [],
+      "header_verdict": {
+        "display_name": "",
+        "sender_domain": "unstop.buzz",
+        "spf_status": "pass",
+        "dkim_status": "pass",
+        "dmarc_status": "pass",
+        "header_risk_score": 0.0,
+        "flags": [],
+        "is_suspicious": false
+      },
+      "domain_verdict": {
+        "max_domain_risk": 0.0,
+        "flags": [],
+        "analyzed_domains": []
+      },
+      "phishtank_verdict": {
+        "total_urls_scanned": 0,
+        "threat_detected": false,
+        "highest_threat": "CLEAN",
+        "url_findings": []
+      },
+      "intent_verdict": {
+        "psychological_triggers": [],
+        "intent_type": "Legitimate",
+        "urgency_score": 0.0,
+        "deceit_score": 0.0,
+        "semantic_risk_score": 0.0,
+        "rationale": "Detected 0 social engineering cues. Urgency rating: 0.0/100, Deceptive Intent: 0.0/100.",
+        "analysis_engine": "Semantic Heuristic Engine (Offline / Fallback)",
+        "engine_note": "HTTP Error 404: Not Found"
+      },
+      "risk_score": 0.0,
+      "action": "DELIVER",
+      "threat_category": "Legitimate",
+      "explanation": "**Action:** `DELIVER` (Risk Score: **0.0/100** | Category: **Legitimate**)\n\n**Triage Summary:**\n\u2022 No malicious URLs, spoofing signatures, or high-risk coercion tactics detected.\n\u2022 Standard business/personal communication signature verified.\n\n**LLM Cognitive Rationale:**\n> Detected 0 social engineering cues. Urgency rating: 0.0/100, Deceptive Intent: 0.0/100.",
+      "key_indicators": [],
+      "is_overridden": false,
+      "human_override_action": null,
+      "reviewer_notes": null,
+      "reviewed_at": null,
+      "processed_at": "2026-11-13T10:07:28.531836"
+    },
+    {
+      "email_id": "b31bc296",
+      "sender": "Netflix Billing <update@netflix-billing-update-required.net>",
+      "subject": "Action Required: Update your streaming payment method",
+      "body_text": "Hi Member,\n\nWe were unable to process your subscription renewal. Update your card now to continue watching:\nhttp://netflix-billing-update-required.net/signin\n\nNetflix Support",
+      "extracted_urls": [
+        "http://netflix-billing-update-required.net/signin"
+      ],
+      "header_verdict": {
+        "display_name": "Netflix Billing",
+        "sender_domain": "netflix-billing-update-required.net",
+        "spf_status": "softfail",
+        "dkim_status": "none",
+        "dmarc_status": "none",
+        "header_risk_score": 20.0,
+        "flags": [
+          "SPF softfail (Sender IP questionable)"
+        ],
+        "is_suspicious": false
+      },
+      "domain_verdict": {
+        "max_domain_risk": 45.0,
+        "flags": [
+          "Brand impersonation: Domain 'netflix-billing-update-required.net' contains brand keyword 'netflix' but is not an official domain."
+        ],
+        "analyzed_domains": [
+          {
+            "domain": "netflix-billing-update-required.net",
+            "risk_score": 45.0,
+            "flags": [
+              "Brand impersonation: Domain 'netflix-billing-update-required.net' contains brand keyword 'netflix' but is not an official domain."
+            ],
+            "is_suspicious": true,
+            "url": "http://netflix-billing-update-required.net/signin"
+          }
+        ]
+      },
+      "phishtank_verdict": {
+        "total_urls_scanned": 1,
+        "threat_detected": true,
+        "highest_threat": "CRITICAL",
+        "url_findings": [
+          {
+            "url": "http://netflix-billing-update-required.net/signin",
+            "is_match": true,
+            "threat_level": "CRITICAL",
+            "matched_by": "exact_url",
+            "details": "Exact URL confirmed in PhishTank database."
+          }
+        ]
+      },
+      "intent_verdict": {
+        "psychological_triggers": [
+          "Urgency trigger: 'action required'"
+        ],
+        "intent_type": "Legitimate",
+        "urgency_score": 25.0,
+        "deceit_score": 0.0,
+        "semantic_risk_score": 11.25,
+        "rationale": "Detected 1 social engineering cues. Urgency rating: 25.0/100, Deceptive Intent: 0.0/100. Notable indicators: Urgency trigger: 'action required'.",
+        "analysis_engine": "Semantic Heuristic Engine (Offline / Fallback)",
+        "engine_note": "HTTP Error 404: Not Found"
+      },
+      "risk_score": 98.0,
+      "action": "QUARANTINE",
+      "threat_category": "Phishing / Malicious",
+      "explanation": "**Action:** `QUARANTINE` (Risk Score: **98.0/100** | Category: **Phishing / Malicious**)\n\n**Triage Summary:**\n\u2022 Found **4** warning indicators across security layers.\n  - \ud83d\udea8 [PhishTank] Confirmed active phishing URL verified in threat intelligence database.\n  - \ud83d\udce7 [Authentication] SPF softfail (Sender IP questionable)\n  - \ud83c\udf10 [Domain Integrity] Brand impersonation: Domain 'netflix-billing-update-required.net' contains brand keyword 'netflix' but is not an official domain.\n  - \ud83e\udde0 [Psychological Intent] Urgency trigger: 'action required'\n\n**LLM Cognitive Rationale:**\n> Detected 1 social engineering cues. Urgency rating: 25.0/100, Deceptive Intent: 0.0/100. Notable indicators: Urgency trigger: 'action required'.",
+      "key_indicators": [
+        "\ud83d\udea8 [PhishTank] Confirmed active phishing URL verified in threat intelligence database.",
+        "\ud83d\udce7 [Authentication] SPF softfail (Sender IP questionable)",
+        "\ud83c\udf10 [Domain Integrity] Brand impersonation: Domain 'netflix-billing-update-required.net' contains brand keyword 'netflix' but is not an official domain.",
+        "\ud83e\udde0 [Psychological Intent] Urgency trigger: 'action required'"
+      ],
+      "is_overridden": false,
+      "human_override_action": null,
+      "reviewer_notes": null,
+      "reviewed_at": null,
+      "processed_at": "2026-11-13T10:07:42.834062"
+    },
+    {
+      "email_id": "85f75c7a",
+      "sender": "IT Helpdesk <admin@microsoft-office365-pass-reset.org>",
+      "subject": "Final Warning: Domain Password Expiring Today",
+      "body_text": "Attention,\n\nYour Office 365 password expires in 2 hours. Click below to keep your current credentials:\nhttps://microsoft-office365-pass-reset.org/auth\n\nGlobal IT Administrator",
+      "extracted_urls": [
+        "https://microsoft-office365-pass-reset.org/auth"
+      ],
+      "header_verdict": {
+        "display_name": "IT Helpdesk",
+        "sender_domain": "microsoft-office365-pass-reset.org",
+        "spf_status": "fail",
+        "dkim_status": "fail",
+        "dmarc_status": "fail",
+        "header_risk_score": 100.0,
+        "flags": [
+          "Display Name Spoofing detected: Claims to be 'IT Helpdesk' but sent from unrelated domain 'microsoft-office365-pass-reset.org'",
+          "SPF validation failed (Sender IP not authorized)",
+          "DKIM cryptographic signature verification failed",
+          "DMARC alignment policy failed"
+        ],
+        "is_suspicious": true
+      },
+      "domain_verdict": {
+        "max_domain_risk": 45.0,
+        "flags": [
+          "Brand impersonation: Domain 'microsoft-office365-pass-reset.org' contains brand keyword 'microsoft' but is not an official domain."
+        ],
+        "analyzed_domains": [
+          {
+            "domain": "microsoft-office365-pass-reset.org",
+            "risk_score": 45.0,
+            "flags": [
+              "Brand impersonation: Domain 'microsoft-office365-pass-reset.org' contains brand keyword 'microsoft' but is not an official domain."
+            ],
+            "is_suspicious": true,
+            "url": "https://microsoft-office365-pass-reset.org/auth"
+          }
+        ]
+      },
+      "phishtank_verdict": {
+        "total_urls_scanned": 1,
+        "threat_detected": true,
+        "highest_threat": "CRITICAL",
+        "url_findings": [
+          {
+            "url": "https://microsoft-office365-pass-reset.org/auth",
+            "is_match": true,
+            "threat_level": "CRITICAL",
+            "matched_by": "exact_url",
+            "details": "Exact URL confirmed in PhishTank database."
+          }
+        ]
+      },
+      "intent_verdict": {
+        "psychological_triggers": [
+          "Urgency trigger: 'final warning'"
+        ],
+        "intent_type": "Legitimate",
+        "urgency_score": 25.0,
+        "deceit_score": 0.0,
+        "semantic_risk_score": 11.25,
+        "rationale": "Detected 1 social engineering cues. Urgency rating: 25.0/100, Deceptive Intent: 0.0/100. Notable indicators: Urgency trigger: 'final warning'.",
+        "analysis_engine": "Semantic Heuristic Engine (Offline / Fallback)",
+        "engine_note": "HTTP Error 404: Not Found"
+      },
+      "risk_score": 98.0,
+      "action": "QUARANTINE",
+      "threat_category": "Phishing / Malicious",
+      "explanation": "**Action:** `QUARANTINE` (Risk Score: **98.0/100** | Category: **Phishing / Malicious**)\n\n**Triage Summary:**\n\u2022 Found **7** warning indicators across security layers.\n  - \ud83d\udea8 [PhishTank] Confirmed active phishing URL verified in threat intelligence database.\n  - \ud83d\udce7 [Authentication] Display Name Spoofing detected: Claims to be 'IT Helpdesk' but sent from unrelated domain 'microsoft-office365-pass-reset.org'\n  - \ud83d\udce7 [Authentication] SPF validation failed (Sender IP not authorized)\n  - \ud83d\udce7 [Authentication] DKIM cryptographic signature verification failed\n  - \ud83d\udce7 [Authentication] DMARC alignment policy failed\n\n**LLM Cognitive Rationale:**\n> Detected 1 social engineering cues. Urgency rating: 25.0/100, Deceptive Intent: 0.0/100. Notable indicators: Urgency trigger: 'final warning'.",
+      "key_indicators": [
+        "\ud83d\udea8 [PhishTank] Confirmed active phishing URL verified in threat intelligence database.",
+        "\ud83d\udce7 [Authentication] Display Name Spoofing detected: Claims to be 'IT Helpdesk' but sent from unrelated domain 'microsoft-office365-pass-reset.org'",
+        "\ud83d\udce7 [Authentication] SPF validation failed (Sender IP not authorized)",
+        "\ud83d\udce7 [Authentication] DKIM cryptographic signature verification failed",
+        "\ud83d\udce7 [Authentication] DMARC alignment policy failed",
+        "\ud83c\udf10 [Domain Integrity] Brand impersonation: Domain 'microsoft-office365-pass-reset.org' contains brand keyword 'microsoft' but is not an official domain.",
+        "\ud83e\udde0 [Psychological Intent] Urgency trigger: 'final warning'"
+      ],
+      "is_overridden": false,
+      "human_override_action": null,
+      "reviewer_notes": null,
+      "reviewed_at": null,
+      "processed_at": "2026-11-13T10:07:58.142499"
+    }
+  ],
+  "overrides": []
+}

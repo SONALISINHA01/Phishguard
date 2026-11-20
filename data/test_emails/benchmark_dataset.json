@@ -1,0 +1,112 @@
+[
+  {
+    "id": "PHISH-001",
+    "sender": "PayPal Support <service@paypal-security-account-verification.com>",
+    "subject": "Urgent: Your PayPal Account Has Been Temporarily Suspended",
+    "body": "Dear Customer,\n\nWe detected suspicious login activity from an unknown IP address. For your security, your account has been temporarily restricted. You must verify your identity within 24 hours to avoid permanent account termination.\n\nPlease log in immediately through our secure portal to restore access:\nhttp://paypal-security-account-verification.com/login\n\nThank you,\nPayPal Security Team",
+    "headers": {
+      "Authentication-Results": "spf=fail (sender IP not in SPF record) dkim=fail",
+      "Return-Path": "<bounce@paypal-security-account-verification.com>"
+    },
+    "ground_truth": "phishing"
+  },
+  {
+    "id": "PHISH-002",
+    "sender": "Netflix Billing <account-update@netflix-billing-update-required.net>",
+    "subject": "Important: Payment Declined - Update Your Payment Details",
+    "body": "Hi Member,\n\nWe were unable to process your monthly membership payment. Your streaming service will be suspended immediately unless you update your credit card details.\n\nClick here to update your billing information now:\nhttp://netflix-billing-update-required.net/signin\n\nThe Netflix Team",
+    "headers": {
+      "Authentication-Results": "spf=softfail dkim=none",
+      "Return-Path": "<mailer@billing-server-99.top>"
+    },
+    "ground_truth": "phishing"
+  },
+  {
+    "id": "PHISH-003",
+    "sender": "Microsoft IT Helpdesk <admin@microsoft-office365-pass-reset.org>",
+    "subject": "Action Required: Password Expiring in 2 Hours",
+    "body": "Attention Employee,\n\nYour Office 365 domain password is set to expire today. Failure to update your credentials will lock your email and SharePoint access.\n\nKeep your current password by verifying here:\nhttps://microsoft-office365-pass-reset.org/auth\n\nGlobal IT Infrastructure Support",
+    "headers": {
+      "Authentication-Results": "spf=fail dkim=fail dmarc=fail",
+      "Return-Path": "<admin@microsoft-office365-pass-reset.org>"
+    },
+    "ground_truth": "phishing"
+  },
+  {
+    "id": "PHISH-004",
+    "sender": "Chase Fraud Department <fraud-alert@chase-security-portal.secure-banking.top>",
+    "subject": "Security Alert: Unusual Transaction Detected ($948.50)",
+    "body": "Chase Alert: A charge of $948.50 at Target Store was attempted on your debit card. If this was NOT you, you must cancel the charge immediately.\n\nDispute and review this transaction:\nhttp://chase-security-portal.secure-banking.top/verify\n\nChase Fraud Prevention Unit",
+    "headers": {
+      "Authentication-Results": "spf=fail",
+      "Return-Path": "<no-reply@secure-banking.top>"
+    },
+    "ground_truth": "phishing"
+  },
+  {
+    "id": "PHISH-005",
+    "sender": "DocuSign Electronic Signature <docusign@secure-login-docusign.com-view.info>",
+    "subject": "DocuSign: Please review and sign Confidential NDA.pdf",
+    "body": "You have received a new confidential document to review and electronically sign. This document requires your urgent signature before close of business today.\n\nView and Sign Document:\nhttp://secure-login-docusign.com-view.info/document\n\nPowered by DocuSign",
+    "headers": {
+      "Authentication-Results": "spf=softfail dkim=fail",
+      "Return-Path": "<relay@com-view.info>"
+    },
+    "ground_truth": "phishing"
+  },
+  {
+    "id": "LEGIT-001",
+    "sender": "GitHub Notifications <notifications@github.com>",
+    "subject": "[GitHub] Run failed: Build & Test (main - 3b7c4a1)",
+    "body": "Your workflow 'Build & Test' failed on branch main.\n\nCommit: 3b7c4a1 - fix: update dependencies\nAuthor: sonal\nView full run logs: https://github.com/sonali/phishguard/actions/runs/10823912\n\nYou are receiving this email because you are watching this repository.",
+    "headers": {
+      "Authentication-Results": "spf=pass (sender IP is authorized) dkim=pass dmarc=pass",
+      "Return-Path": "<noreply@github.com>"
+    },
+    "ground_truth": "legitimate"
+  },
+  {
+    "id": "LEGIT-002",
+    "sender": "Amazon.com Customer Care <order-update@amazon.com>",
+    "subject": "Your Amazon.com order #114-8923741-2831201 has shipped!",
+    "body": "Hello Sonali,\n\nGood news! Your order containing 'Wireless Ergonomic Mouse' has shipped and will arrive on Friday.\n\nTrack your package here:\nhttps://www.amazon.com/gp/your-account/order-history\n\nThank you for shopping with Amazon!",
+    "headers": {
+      "Authentication-Results": "spf=pass dkim=pass dmarc=pass",
+      "Return-Path": "<shipment-tracking@bounces.amazon.com>"
+    },
+    "ground_truth": "legitimate"
+  },
+  {
+    "id": "LEGIT-003",
+    "sender": "Prof. Sharma <r.sharma@university.edu>",
+    "subject": "CS471 Project Review - Schedule and Room Allocation",
+    "body": "Dear Students,\n\nThe mid-term project reviews for CS471 (Large Language Models and Agentic AI) will be held next Tuesday in Lab 304 starting at 10:00 AM.\n\nPlease ensure your demo pipelines and presentation decks are ready.\n\nBest regards,\nProf. R. Sharma\nDepartment of Computer Science",
+    "headers": {
+      "Authentication-Results": "spf=pass dkim=pass",
+      "Return-Path": "<r.sharma@university.edu>"
+    },
+    "ground_truth": "legitimate"
+  },
+  {
+    "id": "LEGIT-004",
+    "sender": "Google Cloud Alerts <no-reply@google.com>",
+    "subject": "[Billing Alert] Monthly Cloud Invoice Available",
+    "body": "Hello Google Cloud Administrator,\n\nYour monthly billing statement for Google Cloud project 'ag-production' is now available for download.\n\nYou can review your charges in the Google Cloud Console:\nhttps://console.cloud.google.com/billing\n\nGoogle Cloud Team",
+    "headers": {
+      "Authentication-Results": "spf=pass dkim=pass dmarc=pass",
+      "Return-Path": "<bounces@google.com>"
+    },
+    "ground_truth": "legitimate"
+  },
+  {
+    "id": "LEGIT-005",
+    "sender": "LinkedIn Updates <messages-noreply@linkedin.com>",
+    "subject": "Priya sent you a connection request",
+    "body": "Hi Sonali,\n\nPriya Patel (Senior AI Engineer at TechCorp) would like to connect with you on LinkedIn.\n\nAccept invitation or view profile:\nhttps://www.linkedin.com/in/invite-accept?id=892312\n\nLinkedIn Corporation",
+    "headers": {
+      "Authentication-Results": "spf=pass dkim=pass dmarc=pass",
+      "Return-Path": "<messages-noreply@linkedin.com>"
+    },
+    "ground_truth": "legitimate"
+  }
+]
